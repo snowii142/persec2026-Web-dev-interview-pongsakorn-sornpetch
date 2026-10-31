@@ -1,0 +1,17 @@
+{
+  "name": "persec2026-web-dev-interview-pongsakorn",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test no-*/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.130",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
